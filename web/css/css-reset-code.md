@@ -4,7 +4,7 @@ css reset 都是什么样的都有
 个人觉得在各类网站下都不会影响他们代码的  base 才算是默认样式
 下面来一段个人一直用的
 
-##start base
+## base
 	body, textarea, input, select, option {
 	  font-size: 12px;
 	  color: #333;
@@ -75,7 +75,7 @@ css reset 都是什么样的都有
 	a:hover {
 	  text-decoration: underline;
 	}
-## base end
+## 自定义
 	.m {
 	  margin: 0 auto;
 	  width: 1200px;
@@ -109,3 +109,6 @@ css reset 都是什么样的都有
 	:-ms-input-placeholder { /* Internet Explorer 10+ */
 	    color:#ccc;
 	}
+## 备注
+有人说var em cite i b strong 等标签没有重置
+其实原来我是加了的，但有个问题，如果这个网站有用户编辑部分，自己增加了粗体斜体大字号 因为你重定义了，那strong b 等就不起作用了
