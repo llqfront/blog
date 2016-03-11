@@ -1,5 +1,5 @@
 ###web目录结构
-_web
++ web
 	+ angular
 		
 	+ javascript
