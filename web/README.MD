@@ -1,7 +1,7 @@
 ###web目录结构
 + web
 	+ angular
-		+ [css 默认](css/01.md)
+		+ [angularjs 小知识点](angular/01.md)
 	+ vue
 		+ [css 默认](css/01.md)	
 	+ javascript
